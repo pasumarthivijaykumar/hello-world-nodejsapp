@@ -4,7 +4,7 @@ git clone https://github.com/pasumarthivijaykumar/hello-world-nodejsapp.git
 
 
 
-1.	Go inside cloned / prepared folder 
+1.	Go inside cloned / prepared folder and run following command
 docker build -t <nameOfTheImage> -f ./.Dockerfile .
 
 Ex: docker build -t hello-world-nodejsapp -f ./.Dockerfile .
